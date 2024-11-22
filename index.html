@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tip Toes Soles - Home Page</title>
+    <link rel="icon" type="img/png" href="resources/TipToe Soles_Logo_colour.png">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="index.html">
+                <div class="logo">
+                    <img src="resources/TipToe Soles_Logo_colour.png" alt="Logo" class="logo-image">
+                </div>
+            </a>
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+            <label for="menu-toggle" class="hamburger">
+                <i class="fas fa-bars"></i>
+            </label>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="about-us.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="search-container">
+                <form id="search-form">
+                    <input type="text" id="search-input" placeholder="Search for a page..." class="search-bar" required>
+                    <button type="submit" class="search-button"><i class="fas fa-search"></i></button>
+                </form>
+                <a href="Cart_profile-code/cart.html" class="icon">
+                    <i class="fas fa-shopping-bag"></i>
+                    <span id="cart-count" class="cart-count">0</span>
+                </a>
+                <a href="Cart_profile-code/profile.html" class="icon"><i class="fas fa-user-circle"></i></a>
+            </div>
+        </nav>
+    </header>
+    <hr class="nav-line">
+    <div class="banner">
+        <div class="text_button">
+            <p class="first-text">Find your perfect fit,<br>
+                one step at a time.</p>
+            <p class="second-text">Discover the latest trends and find your ideal footwear effortlessly.<br>
+                Each click brings you closer to stepping out in style.</p>
+            <div class="button-container">
+                <a href="products.html" class="shop-now">Shop Now</a>
+                <a href="products.html" class="view-all">View All ---></a>
+            </div>
+        </div>
+        <div class="shoes_picture">
+            <img src="resources/Gary Tan.jpg" alt="gary tan" class="banner_pic">
+        </div>
+    </div>
+    <h2 class="new_arrival_text">NEW ARRIVAL!</h2>
+    <div class="shoe-container">
+        <a href="product_page/gary_shoes.html" class="shoe-item">
+            <img src="resources/Gary Black.jpg" width="212" height="109" alt="Shoe 1">
+            <div class="shoe-info">
+                <h2 class="shoe-name">GARY MIDNIGHT</h2>
+                <p class="shoe-type">Man</p>
+            </div>
+        </a>
+        <a href="product_page/sally_shoes.html" class="shoe-item">
+            <img src="resources/Sally Black.jpg" width="212" height="109" alt="Shoe 2">
+            <div class="shoe-info">
+                <h2 class="shoe-name">SALLY BLACK</h2>
+                <p class="shoe-type">Woman</p>
+            </div>
+        </a>
+        <a href="product_page/sally_shoes.html" class="shoe-item">
+            <img src="resources/Sally Tan.jpg" width="212" height="109" alt="Shoe 3">
+            <div class="shoe-info">
+                <h2 class="shoe-name">SALLY TAN</h2>
+                <p class="shoe-type">Woman</p>
+            </div>
+        </a>
+        <a href="product_page/work_and_walk_chesnut.html" class="shoe-item">
+            <img src="resources/Work and Walk Chesnut.png" width="212" height="109" alt="Shoe 4">
+            <div class="shoe-info">
+                <h2 class="shoe-name">WORK AND WALK CHESNUT</h2>
+                <p class="shoe-type">Man</p>
+            </div>
+        </a>
+        <a href="product_page/gary_shoes.html" class="shoe-item">
+            <img src="resources/Gary Tan.jpg" width="212" height="109" alt="Shoe 5">
+            <div class="shoe-info">
+                <h2 class="shoe-name">GARY TAN</h2>
+                <p class="shoe-type">Man</p>
+            </div>
+        </a>
+        <a href="product_page/heavenly_black.html" class="shoe-item">
+            <img src="resources/Heavenly Black.png" width="212" height="109" alt="Shoe 6">
+            <div class="shoe-info">
+                <h2 class="shoe-name">HEAVENLY BLACK</h2>
+                <p class="shoe-type">Woman</p>
+            </div>
+        </a>
+        <a href="product_page/clancy_blue.html" class="shoe-item">
+            <img src="resources/Clancy Blue.png" width="180" height="109" alt="Shoe 7">
+            <div class="shoe-info">
+                <h2 class="shoe-name">CLANCY BLUE</h2>
+                <p class="shoe-type">Woman</p>
+            </div>
+        </a>
+    </div>
+    <script src="js_file/cart.js"></script>
+    <script src="js_file/search_bar.js"></script>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-promotion">
+                <h3>GET LATEST PROMOTION!</h3>
+                <p>By entering your email address below,<br>
+                    you consent to receiving email from us.</p>
+                <input class="email-promotion" type="email" placeholder="Enter your email" />
+                <div class="social-media">
+                    <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-youtube"></i></a>
+
+                </div>
+            </div>
+            <div class="footer-nav">
+                <h3><strong>Members</strong></h3>
+                <ul>
+                    <li><a href="./Cart_profile-code/profile.html">Login</a></li>
+                    <li><a href="./Cart_profile-code/profile.html">Signup</a></li>
+                </ul>
+            </div>
+            <div class="footer-nav">
+                <h3><strong>Help</strong></h3>
+                <ul>
+                    <li><a href="services.html">Track my Order</a></li>
+                    <li><a href="./delivery_policies/exhange_return.html">Return</a></li>
+                    <li><a href="./delivery_policies/exhange_return.html">Exchange</a></li>
+                    <li><a href="./delivery_policies/delivery.html">Delivery</a></li>
+                </ul>
+            </div>
+            <div class="footer-nav">
+                <h3><strong>About Us</strong></h3>
+                <ul>
+                    <li><a href="about-us.html">Our Story</a></li>
+                    <li><a href="about-us.html">Promotions</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-nav">
+                <h3><strong>Shop</strong></h3>
+                <ul>
+                    <li><a href="products.html">Man</a></li>
+                    <li><a href="products.html">Woman</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <div class="copyright-footer">
+        <div class="payment-method-logo">
+            <img src="resources/visa.png" alt="Logo" class="payment-logo">
+            <img src="resources/mastercard.png" alt="Logo" class="payment-logo">
+            <img src="resources/paypal.png" alt="Logo" class="payment-logo">
+        </div>
+        <div class="copyrigh-text">
+            <p>© Copyright 2024. All right reserved (Tip Toes Soles)</p>
+        </div>
+    </div>
+</body>
+
+</html>

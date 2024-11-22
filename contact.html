@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tip Toes Soles - Contact</title>
+    <link rel="icon" type="img/png" href="resources/TipToe Soles_Logo_colour.png">
+    <link rel="stylesheet" href="contact.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="index.html">
+                <div class="logo">
+                    <img src="resources/TipToe Soles_Logo_colour.png" alt="Logo" class="logo-image">
+                </div>
+            </a>
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+            <label for="menu-toggle" class="hamburger">
+                <i class="fas fa-bars"></i>
+            </label>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="about-us.html">About Us</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+            <div class="search-container">
+                <form id="search-form">
+                    <input type="text" id="search-input" placeholder="Search for a page..." class="search-bar" required>
+                    <button type="submit" class="search-button"><i class="fas fa-search"></i></button>
+                </form>
+                <a href="Cart_profile-code/cart.html" class="icon">
+                    <i class="fas fa-shopping-bag"></i>
+                    <span id="cart-count" class="cart-count">0</span>
+                </a>
+                <a href="Cart_profile-code/profile.html" class="icon"><i class="fas fa-user-circle"></i></a>
+            </div>
+        </nav>
+    </header>
+    <hr class="nav-line">
+
+    <div class="container">
+        <div class="row">
+            <div class="column logo-info">
+                <img class="logo-info-size" src="resources/TipToe Soles_Logo_colour.png">
+            </div>
+            <div class="column contact-info">
+                <h2>CONTACT</h2>
+                <h2>GET IN TOUCH WITH OUR TEAM</h2>
+                <p><strong>Email:</strong> TipToeShoes@gmail.com</p>
+                <p><strong>Tel:</strong> 02 9210 5000</p>
+                <p><strong>Address:</strong> 322 Avondale Road Enfield NSW 2133</p>
+            </div>
+        </div>
+        <div class="contact-form">
+            <h2>Contact Form</h2>
+            <form action="https://formsubmit.co/TipToeShoes@gmail.com" TipToeShoes@gmail.com method="POST">
+                <label for="name">Full Name</label>
+                <input placeholder="Enter your name" type="text" id="name" name="name" required>
+
+                <label for="email">Email</label>
+                <input placeholder="Enter your email" type="email" id="email" name="email" required>
+
+                <label for="phone">Phone Number</label>
+                <input placeholder="Enter your phone number" type="tel" id="phone" name="phone" required>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+    <script src="js_file/cart.js"></script>
+    <script src="js_file/search_bar.js"></script>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-promotion">
+                <h3>GET LATEST PROMOTION!</h3>
+                <p>By entering your email address below,<br>
+                    you consent to receiving email from us.</p>
+                <input class="email-promotion" type="email" placeholder="Enter your email" />
+                <div class="social-media">
+                    <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-youtube"></i></a>
+
+                </div>
+            </div>
+            <div class="footer-nav">
+                <h3><strong>Members</strong></h3>
+                <ul>
+                    <li><a href="./Cart_profile-code/profile.html">Login</a></li>
+                    <li><a href="./Cart_profile-code/profile.html">Signup</a></li>
+                </ul>
+            </div>
+            <div class="footer-nav">
+                <h3><strong>Help</strong></h3>
+                <ul>
+                    <li><a href="services.html">Track my Order</a></li>
+                    <li><a href="./delivery_policies/exhange_return.html">Return</a></li>
+                    <li><a href="./delivery_policies/exhange_return.html">Exchange</a></li>
+                    <li><a href="./delivery_policies/delivery.html">Delivery</a></li>
+                </ul>
+            </div>
+            <div class="footer-nav">
+                <h3><strong>About Us</strong></h3>
+                <ul>
+                    <li><a href="about-us.html">Our Story</a></li>
+                    <li><a href="about-us.html">Promotions</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-nav">
+                <h3><strong>Shop</strong></h3>
+                <ul>
+                    <li><a href="products.html">Man</a></li>
+                    <li><a href="products.html">Woman</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <div class="copyright-footer">
+        <div class="payment-method-logo">
+            <img src="resources/visa.png" alt="Logo" class="payment-logo">
+            <img src="resources/mastercard.png" alt="Logo" class="payment-logo">
+            <img src="resources/paypal.png" alt="Logo" class="payment-logo">
+        </div>
+        <div class="copyrigh-text">
+            <p>© Copyright 2024. All right reserved (Tip Toes Soles)</p>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tip Toes Soles - All Products</title>
+    <link rel="icon" type="img/png" href="resources/TipToe Soles_Logo_colour.png">
+    <link rel="stylesheet" href="products.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="index.html">
+                <div class="logo">
+                    <img src="resources/TipToe Soles_Logo_colour.png" alt="Logo" class="logo-image">
+                </div>
+            </a>
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+            <label for="menu-toggle" class="hamburger">
+                <i class="fas fa-bars"></i>
+            </label>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html" class="active">Products</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="about-us.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="search-container">
+                <form id="search-form">
+                    <input type="text" id="search-input" placeholder="Search for a page..." class="search-bar" required>
+                    <button type="submit" class="search-button"><i class="fas fa-search"></i></button>
+                </form>
+                <a href="Cart_profile-code/cart.html" class="icon">
+                    <i class="fas fa-shopping-bag"></i>
+                    <span id="cart-count" class="cart-count">0</span>
+                </a>
+                <a href="Cart_profile-code/profile.html" class="icon"><i class="fas fa-user-circle"></i></a>
+            </div>
+        </nav>
+    </header>
+    <hr class="nav-line">
+    <h2 class="new_arrival_text">NEW ARRIVAL!</h2>
+    <div class="promotion_page">
+        <h3 class="big_text">Enjoy up to 40% off* with member prices</h3>
+        <p class="small_text">T&Cs apply. Selected styles only. Offer applies to new and existing members.</p>
+    </div>
+    <div class="all_products_filters">
+        <div id="myBtnContainer">
+            <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+            <button class="btn" onclick="filterSelection('Man')"> Man</button>
+            <button class="btn" onclick="filterSelection('Woman')"> Woman</button>
+            <button class="btn" onclick="filterSelection('Formal')"> Formal</button>
+            <button class="btn" onclick="filterSelection('Casual')"> Casual</button>
+            <button class="btn" onclick="filterSelection('Boots')"> Boots</button>
+        </div>
+        <div class="products_container">
+            <div class="filterDiv Man Formal">
+                <a href="product_page/gary_shoes.html">
+                    <img src="resources/Gary Black.jpg" alt="Shoe 1">
+                    <h3 class="shoes_name">GARY MIDNIGHT</h3>
+                    <p class="prices">$79.00</p>
+                </a>
+            </div>
+            <div class="filterDiv Woman Formal">
+                <a href="product_page/sally_shoes.html">
+                    <img src="resources/Sally Black.jpg" alt="Shoe 2">
+                    <h3 class="shoes_name">SALLY BLACK</h3>
+                    <p class="prices">$75.00</p>
+                </a>
+            </div>
+            <div class="filterDiv Woman Formal">
+                <a href="product_page/sally_shoes.html">
+                    <img src="resources/Sally Tan.jpg" alt="Shoe 3">
+                    <h3 class="shoes_name">SALLY TAN</h3>
+                    <p class="prices">$75.00</p>
+                </a>
+            </div>
+            <div class="filterDiv Man Boots">
+                <a href="product_page/work_and_walk_chesnut.html">
+                    <img src="resources/Work and Walk Chesnut.png" alt="Shoe 4">
+                    <h3 class="shoes_name">WORK AND WALK CHESNUT</h3>
+                    <p class="prices">$85.00</p>
+                </a>
+            </div>
+            <div class="filterDiv Man Formal">
+                <a href="product_page/gary_shoes.html">
+                    <img src="resources/Gary Tan.jpg" alt="Shoe 5">
+                    <h3 class="shoes_name">GARY TAN</h3>
+                    <p class="prices">$79.00</p>
+                </a>
+            </div>
+            <div class="filterDiv Woman Casual">
+                <a href="product_page/heavenly_black.html">
+                    <img src="resources/Heavenly Black.png" alt="Shoe 6">
+                    <h3 class="shoes_name">HEAVENLY BLACK</h3>
+                    <p class="prices">$59.00</p>
+                </a>
+            </div>
+            <div class="filterDiv Woman Casual">
+                <a href="product_page/clancy_blue.html">
+                    <img src="resources/Clancy Blue.png" alt="Shoe 7">
+                    <h3 class="shoes_name">CLANCY BLUE</h3>
+                    <p class="prices">$69.99</p>
+                </a>
+            </div>
+        </div>
+    </div>
+    <script src="js_file/products.js"></script>
+    <script src="js_file/cart.js"></script>
+    <script src="js_file/search_bar.js"></script>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-promotion">
+                <h3>GET LATEST PROMOTION!</h3>
+                <p>By entering your email address below,<br>
+                    you consent to receiving email from us.</p>
+                <input class="email-promotion" type="email" placeholder="Enter your email" />
+                <div class="social-media">
+                    <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-youtube"></i></a>
+
+                </div>
+            </div>
+            <div class="footer-nav">
+                <h3><strong>Members</strong></h3>
+                <ul>
+                    <li><a href="./Cart_profile-code/profile.html">Login</a></li>
+                    <li><a href="./Cart_profile-code/profile.html">Signup</a></li>
+                </ul>
+            </div>
+            <div class="footer-nav">
+                <h3><strong>Help</strong></h3>
+                <ul>
+                    <li><a href="services.html">Track my Order</a></li>
+                    <li><a href="./delivery_policies/exhange_return.html">Return</a></li>
+                    <li><a href="./delivery_policies/exhange_return.html">Exchange</a></li>
+                    <li><a href="./delivery_policies/delivery.html">Delivery</a></li>
+                </ul>
+            </div>
+            <div class="footer-nav">
+                <h3><strong>About Us</strong></h3>
+                <ul>
+                    <li><a href="about-us.html">Our Story</a></li>
+                    <li><a href="about-us.html">Promotions</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-nav">
+                <h3><strong>Shop</strong></h3>
+                <ul>
+                    <li><a href="products.html">Man</a></li>
+                    <li><a href="products.html">Woman</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <div class="copyright-footer">
+        <div class="payment-method-logo">
+            <img src="resources/visa.png" alt="Logo" class="payment-logo">
+            <img src="resources/mastercard.png" alt="Logo" class="payment-logo">
+            <img src="resources/paypal.png" alt="Logo" class="payment-logo">
+        </div>
+        <div class="copyrigh-text">
+            <p>© Copyright 2024. All right reserved (Tip Toes Soles)</p>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tip Toes Soles - Profile</title>
+    <link rel="icon" type="img/png" href="../resources/TipToe Soles_Logo_colour.png">
+    <link rel="stylesheet" href="profile.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="../index.html">
+                <div class="logo">
+                    <img src="../resources/TipToe Soles_Logo_colour.png" alt="Logo" class="logo-image">
+                </div>
+            </a>
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+            <label for="menu-toggle" class="hamburger">
+                <i class="fas fa-bars"></i>
+            </label>
+            <ul class="nav-menu">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../products.html">Products</a></li>
+                <li><a href="../services.html">Services</a></li>
+                <li><a href="../about-us.html">About Us</a></li>
+                <li><a href="../contact.html">Contact</a></li>
+            </ul>
+            <div class="search-container">
+                <form id="search-form">
+                    <input type="text" id="search-input" placeholder="Search for a page..." class="search-bar" required>
+                    <button type="submit" class="search-button"><i class="fas fa-search"></i></button>
+                </form>
+                <a href="cart.html" class="icon" id="cart-icon">
+                    <i class="fas fa-shopping-bag"></i>
+                    <span id="cart-count">0</span>
+                </a>
+                <a href="profile.html" class="icon"><i class="fas fa-user-circle"></i></a>
+            </div>
+        </nav>
+    </header>
+    <hr class="nav-line">
+    <div class="form-container-div">
+        <div class="form-container">
+            <div class="logo">
+                <img src="../resources/TipToe Soles_Logo_colour.png" alt="Logo">
+            </div>
+            <div class="form-title">REGISTER WITH EMAIL</div>
+            <form>
+                <div class="form-group">
+                    <input type="text" placeholder="First Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" placeholder="Last Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="Email" required>
+                </div>
+                <div class="form-group">
+                    <input type="password" placeholder="Password" required>
+                </div>
+                <button type="submit" class="register-btn">REGISTER</button>
+            </form>
+            <div class="or-divider">OR</div>
+            <div class="social-btns">
+                <a href="#" class="social-btn facebook">Sign in with Facebook</a>
+                <a href="#" class="social-btn google">Sign in with Google</a>
+                <a href="#" class="social-btn twitter">Sign in with Twitter</a>
+            </div>
+            <div class="policy-text">
+                Creating an account means you accept our <a href="#">Terms of Use</a> and <a href="#">Privacy
+                    Policy</a>. Already have an account? <a href="#">Login</a>
+            </div>
+        </div>
+    </div>
+    <script src="../js_file/add_to_cart_function.js"></script>
+    <script src="../js_file/cart.js"></script>
+    <script src="../js_file/search_bar.js"></script>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-promotion">
+                <h3>GET LATEST PROMOTION!</h3>
+                <p>By entering your email address below,<br>
+                    you consent to receiving email from us.</p>
+                <input class="email-promotion" type="email" placeholder="Enter your email" />
+                <div class="social-media">
+                    <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-youtube"></i></a>
+
+                </div>
+            </div>
+            <div class="footer-nav">
+                <h3><strong>Members</strong></h3>
+                <ul>
+                    <li><a href="profile.html">Login</a></li>
+                    <li><a href="profile.html">Signup</a></li>
+                </ul>
+            </div>
+            <div class="footer-nav">
+                <h3><strong>Help</strong></h3>
+                <ul>
+                    <li><a href="../services.html">Track my Order</a></li>
+                    <li><a href="../delivery_policies/exhange_return.html">Return</a></li>
+                    <li><a href="../delivery_policies/exhange_return.html">Exchange</a></li>
+                    <li><a href="../delivery_policies/delivery.html">Delivery</a></li>
+                </ul>
+            </div>
+            <div class="footer-nav">
+                <h3><strong>About Us</strong></h3>
+                <ul>
+                    <li><a href="../about-us.html">Our Story</a></li>
+                    <li><a href="../about-us.html">Promotions</a></li>
+                    <li><a href="../contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-nav">
+                <h3><strong>Shop</strong></h3>
+                <ul>
+                    <li><a href="../products.html">Man</a></li>
+                    <li><a href="../products.html">Woman</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <div class="copyright-footer">
+        <div class="payment-method-logo">
+            <img src="../resources/visa.png" alt="Logo" class="payment-logo">
+            <img src="../resources/mastercard.png" alt="Logo" class="payment-logo">
+            <img src="../resources/paypal.png" alt="Logo" class="payment-logo">
+        </div>
+        <div class="copyrigh-text">
+            <p>© Copyright 2024. All right reserved (Tip Toes Soles)</p>
+        </div>
+    </div>
+</body>
+
+</html>
