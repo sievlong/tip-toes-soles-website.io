@@ -4,31 +4,31 @@ document.getElementById('search-form').addEventListener('submit', function (even
     const query = document.getElementById('search-input').value.toLowerCase();
 
     const pages = {
-        home: 'https://sievlong.github.io/tip-toes-soles-website.io/index.html',
-        about: 'https://sievlong.github.io/tip-toes-soles-website.io/about-us.html',
-        products: 'https://sievlong.github.io/tip-toes-soles-website.io/products.html',
-        contact: 'https://sievlong.github.io/tip-toes-soles-website.io/contact.html',
-        services: 'https://sievlong.github.io/tip-toes-soles-website.io/services.html',
+        home: '../index.html',
+        about: '../about-us.html',
+        products: '../products.html',
+        contact: '../contact.html',
+        services: '../services.html',
 
-        man: 'https://sievlong.github.io/tip-toes-soles-website.io/products.html',
-        woman: 'https://sievlong.github.io/tip-toes-soles-website.io/products.html',
-        formal: 'https://sievlong.github.io/tip-toes-soles-website.io/products.html',
-        casual: 'https://sievlong.github.io/tip-toes-soles-website.io/products.html',
-        boots: 'https://sievlong.github.io/tip-toes-soles-website.io/products.html',
+        man: '../products.html',
+        woman: '../products.html',
+        formal: '../products.html',
+        casual: '../products.html',
+        boots: '../products.html',
 
-        clancy: 'https://sievlong.github.io/tip-toes-soles-website.io/product_page/clancy_blue.html',
-        gary: 'https://sievlong.github.io/tip-toes-soles-website.io/product_page/gary_shoes.html',
-        heavenly: 'https://sievlong.github.io/tip-toes-soles-website.io/product_page/heavenly_black.html',
-        sally: 'https://sievlong.github.io/tip-toes-soles-website.io/product_page/sally_shoes.html',
-        workandwalk: 'https://sievlong.github.io/tip-toes-soles-website.io/product_page/work_and_walk_chesnut.html',
+        clancy: '../product_page/clancy_blue.html',
+        gary: '../product_page/gary_shoes.html',
+        heavenly: '../product_page/heavenly_black.html',
+        sally: '../product_page/sally_shoes.html',
+        workandwalk: '../product_page/work_and_walk_chesnut.html',
 
-        delivery: 'https://sievlong.github.io/tip-toes-soles-website.io/delivery_policies/delivery.html',
-        exchange: 'https://sievlong.github.io/tip-toes-soles-website.io/delivery_policies/exhange_return.html',
-        return: 'https://sievlong.github.io/tip-toes-soles-website.io/delivery_policies/exhange_return.html',
-        policies: 'https://sievlong.github.io/tip-toes-soles-website.io/services.html',
+        delivery: '../delivery_policies/delivery.html',
+        exchange: '../delivery_policies/exchange_return.html',
+        return: '../delivery_policies/exchange_return.html',
+        policies: '../services.html',
 
-        cart: 'https://sievlong.github.io/tip-toes-soles-website.io/Cart_profile-code/cart.html',
-        profile: 'https://sievlong.github.io/tip-toes-soles-website.io/Cart_profile-code/profile.html',
+        cart: '../Cart_profile-code/cart.html',
+        profile: '../Cart_profile-code/profile.html',
     };
 
     function getSimilarity(str1, str2) {
