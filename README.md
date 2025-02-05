@@ -42,5 +42,4 @@ Pleace give credit!
 Contact Info: 
 [Facebook](https://www.facebook.com/pov.sievlong/)
 [Instagram](https://www.instagram.com/sievlong.p/)
-[LinkedIN](https://www.linkedin.com/in/sievlong-pov-aa1023248/)
 [Gmail](pov.sievlong@gmail.com)
